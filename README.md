@@ -35,6 +35,7 @@ This repository covers a wide range of subject areas I have used to gain exposur
 4. **Both methods converge** to the same price (validates implementation)
 5. **Multi-dimensional scaling** makes LSMC essential for real-world derivatives
 
+## References
 
 - Cox, Ross & Rubinstein (1979) - *Option Pricing: A Simplified Approach*
 - Longstaff & Schwartz (2001) - *Valuing American Options by Simulation*
