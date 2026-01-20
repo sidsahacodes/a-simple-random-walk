@@ -25,7 +25,7 @@ This repository covers a wide range of subject areas I have used to gain exposur
 │   ├── mc_stock_portfolio.ipynb     # Portfolio Monte Carlo
 │   └── stoch_processes.ipynb        # Stochastic processes
 └── README.md
-
+```
 
 ## Key Insights
 
