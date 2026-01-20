@@ -6,12 +6,13 @@ This repository covers a wide range of subject areas I have used to gain exposur
 
 
 **Notebooks:**
-- `binomial_model_american.ipynb` - Tree-based pricing with vectorization
-- `american_options.ipynb` - Complete LSMC implementation
-- `binomial_european.ipynb` - European option baseline
-- `gbm.ipynb` - Geometric Brownian Motion foundations
-- `stoch_processes.ipynb` - Stochastic process simulations
-- `mc_stock_portfolio.ipynb` - Portfolio-level Monte Carlo
+- `convertible_bond.ipynb` - Tree-based pricing for convertible bonds
+- `binomial_model_american.ipynb` 
+- `american_options.ipynb` - Comparing Bionmial vs LSMC Approach
+- `binomial_european.ipynb` 
+- `gbm.ipynb` - Geometric Brownian Motion Exploration
+- `stoch_processes.ipynb` - Stochastic Process Exploration
+- `mc_stock_portfolio.ipynb` - Portfolio-level Monte Carlo Implementation
 
 
 ## Project Structure
@@ -20,20 +21,13 @@ This repository covers a wide range of subject areas I have used to gain exposur
 ├── american_options.ipynb           # LSMC implementation
 ├── binomial_european.ipynb          # European baseline
 ├── binomial_model_american.ipynb    # Binomial tree pricing
+├── convertible_bond.ipynb           # Convertible Bond 
 ├── understanding_bm/
 │   ├── gbm.ipynb                    # Geometric Brownian Motion
 │   ├── mc_stock_portfolio.ipynb     # Portfolio Monte Carlo
 │   └── stoch_processes.ipynb        # Stochastic processes
 └── README.md
 ```
-
-## Key Insights
-
-1. **Early exercise** captures interest on strike price K (not speculation)
-2. **Vectorization** provides 25x speedup for binomial trees
-3. **LSMC regression** estimates continuation value from simulated paths
-4. **Both methods converge** to the same price (validates implementation)
-5. **Multi-dimensional scaling** makes LSMC essential for real-world derivatives
 
 ## References
 
